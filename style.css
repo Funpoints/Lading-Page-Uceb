@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+html {
+    background-color: #DFDFDF;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: Raleway;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+    background-image: linear-gradient(90deg, #003780ff 0%, #2ab2e8ff 100%);
+    color: #fff;
+    border-radius: 0 0 20px 20px;
+    z-index: 1;
+}
+
+.logo-navbar{
+    margin-left: 1%;
+    margin-top: 3%;
+}
+
+.brand-title {
+    font-size: 1.5rem;
+    margin: .5rem;
+}
+
+.navbar-links {
+    height: 100%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.navbar-links ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-links li {
+    list-style: none;
+}
+
+.navbar-links li a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    padding: 1rem;
+    font-family: Montserrat, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+    font-size: 17px;
+}
+
+.navbar-links li:hover {
+    background-color: #003780ff;
+    border-radius: 10px;
+}
+
+.toggle-button {
+    position: absolute;
+    top: .75rem;
+    right: 1rem;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 21px;
+}
+
+.toggle-button .bar {
+    height: 3px;
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.header-banner-1{
+    margin-top: -10px;
+    width: 100%;
+    position: absolute;
+}
+
+header .section-headear {
+    width: 60vw;
+    margin-left: 1%;
+    top: 7vw;
+    position: relative;
+    padding: 1.09vw;
+}
+
+header .section-headear h1 {
+    font-size: 4.6vw;
+    line-height: 4.5vw;
+    color: #fff;
+    font-family: Montserrat, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+}
+
+header .section-headear p {
+    font-size: 1.7vw;
+    font-family: Montserrat, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+    color: #ffffff;
+    line-height: 2.2vw;
+    width: 43vw;
+    margin-top: 1vw;
+    font-weight: bold;
+}
+
+header .header-form {
+    width: 70%;
+    height: 9vw;
+    display: flex;
+    justify-content: center;
+    margin-top: 1vw;
+    background-image: linear-gradient(90deg, #003780ff 0%, #2ab2e8ff 100%);
+    border-radius: 20px;
+}
+
+header .header-form form{
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+@media (max-width: 800px) {
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .toggle-button {
+        display: flex;
+    }
+
+    .navbar-links {
+        display: none;
+        width: 100%;
+    }
+
+    .navbar-links ul {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .navbar-links ul li {
+        text-align: center;
+    }
+
+    .navbar-links ul li a {
+        padding: .5rem 1rem;
+    }
+
+    .navbar-links.active {
+        display: flex;
+    }
+}
