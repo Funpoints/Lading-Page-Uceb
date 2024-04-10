@@ -16,6 +16,11 @@ body {
     padding: 0;
 }
 
+main{
+    margin-top: 20rem;
+    position: absolute;
+}
+
 .navbar {
     display: flex;
     position: relative;
@@ -136,6 +141,67 @@ header .header-form form{
     width: 100%;
     margin-bottom: 20px;
 }
+
+
+
+#intro{
+    padding: 1rem 5rem 1rem 5rem;
+   
+
+    h1, h4{
+        margin-bottom:1rem;
+        line-height: 1.4;
+        font-weight: semibold;
+    }
+
+    h4{
+        margin-bottom:3rem;
+    }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @media (max-width: 800px) {
     .navbar {
