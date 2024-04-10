@@ -10,6 +10,7 @@
 body {
     margin: 0;
     padding: 0;
+    
 }
 
 /*--------------------- Inicio Header ---------------------*/
@@ -285,4 +286,54 @@ main{
         color: #fff;
         margin-top: 6vw;
     }
+}
+
+footer {
+    background-image: white;
+    display: inline;
+    padding: 1rem;
+    position: relative;
+    bottom: 0; 
+    width: 100%;
+}
+
+.footer-container{
+    display: flex;
+    flex-direction: column;
+    /* background-color: red; */
+    padding: 20px;
+}
+
+.footer-serviços{
+    /* background-color: green; */
+    p:nth-child(2) {
+        margin-top: 10px;
+    }
+    p:nth-child(3) {
+        margin-top: 5px;
+    }
+    p:nth-child(4) {
+        margin-top: 5px;
+    }
+    p:nth-child(5) {
+        margin-top: 5px;
+    }
+}
+
+.footer-social {
+    
+    /* background-color: rgb(125, 125, 138)  ; */
+    p:nth-child(2) {
+        margin-top: 20px;
+    }
+    
+}
+
+.footer-grid{
+    /* background-color:yellow; */
+    flex-direction: row;
+    display: flex;
+    gap: 70px;
+    padding: 15px;  
+    
 }
