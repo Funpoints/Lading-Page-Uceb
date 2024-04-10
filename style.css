@@ -144,6 +144,51 @@ main{
     margin-bottom: 10px;
 }
 
+/*--------------------- Footer ---------------------*/
+footer {
+    background-image: white;
+    display: inline;
+    padding: 1rem;
+    position: relative;
+    bottom: 0; 
+    width: 100%;
+}
+
+.footer-container{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.footer-serviços{
+    p:nth-child(2) {
+        margin-top: 10px;
+    }
+    p:nth-child(3) {
+        margin-top: 10px;
+    }
+    p:nth-child(4) {
+        margin-top: 10px;
+    }
+    p:nth-child(5) {
+        margin-top: 10px;
+    }
+}
+
+.footer-social {
+    line-height: 25px;
+
+    p:nth-child(2) {
+        margin-top: 20px;
+    };    
+}
+
+.footer-grid{
+    flex-direction: row;
+    display: flex;
+    gap: 60px;
+    padding: 15px;  
+}
 
 /*--------------------- Responsive ---------------------*/
 @media screen and (max-width: 1450px){
@@ -266,6 +311,12 @@ main{
     header .section-headear p {
         line-height: 22px;
     }
+
+    .footer-grid{
+        flex-direction: column;
+        display: flex;
+        gap: 30px;
+    }
 }
 
 @media screen and (max-width: 400px) {
@@ -286,54 +337,4 @@ main{
         color: #fff;
         margin-top: 6vw;
     }
-}
-
-footer {
-    background-image: white;
-    display: inline;
-    padding: 1rem;
-    position: relative;
-    bottom: 0; 
-    width: 100%;
-}
-
-.footer-container{
-    display: flex;
-    flex-direction: column;
-    /* background-color: red; */
-    padding: 20px;
-}
-
-.footer-serviços{
-    /* background-color: green; */
-    p:nth-child(2) {
-        margin-top: 10px;
-    }
-    p:nth-child(3) {
-        margin-top: 5px;
-    }
-    p:nth-child(4) {
-        margin-top: 5px;
-    }
-    p:nth-child(5) {
-        margin-top: 5px;
-    }
-}
-
-.footer-social {
-    
-    /* background-color: rgb(125, 125, 138)  ; */
-    p:nth-child(2) {
-        margin-top: 20px;
-    }
-    
-}
-
-.footer-grid{
-    /* background-color:yellow; */
-    flex-direction: row;
-    display: flex;
-    gap: 70px;
-    padding: 15px;  
-    
 }
