@@ -1,9 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway');
 
-html {
-    background-color: #DFDFDF;
-}
-
 * {
     box-sizing: border-box;
     font-family: Raleway;
@@ -16,6 +12,7 @@ body {
     padding: 0;
 }
 
+/*--------------------- Inicio Header ---------------------*/
 .navbar {
     display: flex;
     position: relative;
@@ -71,32 +68,35 @@ body {
 .toggle-button {
     position: absolute;
     top: .75rem;
-    right: 1rem;
+    right: 0;
     display: none;
     flex-direction: column;
     justify-content: space-between;
-    width: 30px;
+    width: 60px;
     height: 21px;
 }
 
 .toggle-button .bar {
     height: 3px;
-    width: 100%;
+    width: 40%;
     background-color: white;
     border-radius: 10px;
 }
 
 .header-banner-1{
-    margin-top: -10px;
+    margin-top: -15px;
     width: 100%;
-    position: absolute;
+}
+
+.header-banner-2{
+    display: none;
 }
 
 header .section-headear {
     width: 60vw;
     margin-left: 1%;
-    top: 7vw;
-    position: relative;
+    top: 10vw;
+    position: absolute;
     padding: 1.09vw;
 }
 
@@ -136,6 +136,26 @@ header .header-form form{
     width: 100%;
     margin-bottom: 20px;
 }
+/*--------------------- Fim Header ---------------------*/
+
+main{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+/*--------------------- Responsive ---------------------*/
+@media screen and (max-width: 1450px){
+    header .section-headear {
+        top: 12vw;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .logo-navbar{
+        width: 60%;
+    }
+}
 
 @media (max-width: 800px) {
     .navbar {
@@ -144,6 +164,7 @@ header .header-form form{
     }
 
     .toggle-button {
+        top: 1.1rem;
         display: flex;
     }
 
@@ -167,5 +188,101 @@ header .header-form form{
 
     .navbar-links.active {
         display: flex;
+    }
+    
+    .logo-navbar{
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    header .section-headear {
+        width: 70vw;
+        margin-left: 4%;
+        top: 15vw;
+    }
+    
+    header .section-headear h1 {
+        font-size: 5.6vw;
+        line-height: 6vw;
+    }
+    
+    header .section-headear p {
+        font-size: 2.7vw;
+        line-height: 4.2vw;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .toggle-button {
+        top: 1.1rem;
+    }
+
+    .header-banner-1{
+        width: 100%;
+        height: 550px;
+        object-fit: cover;
+    }
+
+    header .section-headear {
+        top: 20vw;
+        width: 90%;
+    }
+
+    header .section-headear h1 {
+        font-size: 9vw;
+        line-height: 9vw;
+    }
+    
+    header .section-headear p {
+        font-size: 3.9vw;
+        line-height: 5vw;
+        width: 100%;
+        margin-top: 20px;
+    }
+   
+}
+
+@media screen and (max-width: 500px) {
+    .logo-navbar{
+        width: 40%;
+    }
+
+    .toggle-button {
+        top: 0.99rem;
+    }
+
+    header .section-headear {
+        top: 90px;
+    }
+
+    header .section-headear h1 {
+        font-size: 50px;
+        line-height: 47px;
+    }
+    
+    header .section-headear p {
+        line-height: 22px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    header .section-headear {
+        width: 95%;
+        margin-left: 2%;
+        top: 22vw;
+    }
+    
+    header .section-headear h1 {
+        font-size: 14vw;
+        line-height: 14vw;
+    }
+    
+    header .section-headear p {
+        font-size: 5.5vw;
+        line-height: 6.8vw;
+        color: #fff;
+        margin-top: 6vw;
     }
 }
