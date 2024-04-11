@@ -220,3 +220,17 @@ footer {
     padding: 15px;  
     
 }
+/* Media query para telas menores */
+@media screen and (max-width: 768px) {
+    footer {
+        flex-direction: column;
+    }
+    
+    .footer-grid {
+        flex-direction: column;
+    }
+    
+    .footer-grid > div {
+        margin-bottom: 15px;
+    }
+}
