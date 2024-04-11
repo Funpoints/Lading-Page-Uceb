@@ -3,19 +3,24 @@ $('#carousel-1').owlCarousel({
   margin: 40,
   autoplay: true,
   autoplayTimeout: 4000,
-  nav:true,
+  nav:false,
+  dots: false,
+
   responsive:{
       400:{
           items:1
       },
       600:{
-          items:2
+          items:1
       },
+      700:{
+          items:1
+      },      
       1000:{
           items:3
       }
   }
-})
+});
 
 const toggleButton = document.getElementsByClassName('toggle-button')[0]
 const navbarLinks = document.getElementsByClassName('navbar-links')[0]
@@ -23,7 +28,3 @@ const navbarLinks = document.getElementsByClassName('navbar-links')[0]
 toggleButton.addEventListener('click', () => {
   navbarLinks.classList.toggle('active')
 })
-
-
-
-

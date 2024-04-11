@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Raleway');
+mport url('https://fonts.googleapis.com/css?family=Raleway');
 
 * {
     box-sizing: border-box;
@@ -10,6 +10,7 @@
 body {
     margin: 0;
     padding: 0;
+    color: #495057;
     
 }
 
@@ -159,6 +160,15 @@ main{
 .container-p1 .content-first h1{
     margin-bottom: 2vw;
     text-align: start;
+    font-family: Montserrat, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans';
+    font-weight: semi-bold;
+    font-size: 2.5vw;
+}
+
+.container-p1 .content-first h3{
+    line-height: 160%;
+    font-family: Montserrat, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans';
+    font-weight: regular;
 }
 
 /*--------------------- container-p2 ---------------------*/
@@ -174,7 +184,7 @@ main{
     'Liberation Sans', sans-serif;
     font-size: 2.5vw;
     line-height: 2.7vw;
-    margin-bottom: 0.3vw;
+    margin-bottom: 0.5vw;
 }
 
 .container-p2 .content-first h6{
@@ -197,6 +207,11 @@ main{
     align-items: center;
     gap: 1.5vw;
     text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.1);
+    height:25rem;
+    width:25rem;
+    padding: 1.5vw;
 }
 
 .container-p2 .owl-theme .swiper-slide p{
@@ -206,11 +221,15 @@ main{
 }
 
 .container-p2 .owl-theme button{
+    position: absolute;
+    bottom: 1vw;
     background-image: linear-gradient(90deg, #003780ff 0%, #2ab2e8ff 100%);
     padding: 0.8vw;
     border: none;
-    border-radius: 10px;
+    border-radius: 8px;
     color: #fff;
+   
+   
 }
 /*--------------------- Fim Main ---------------------*/
 
@@ -309,6 +328,9 @@ footer {
     .logo-navbar{
         width: 50%;
     }
+    .container-p1 img{
+        display: none;
+    }
 }
 
 @media screen and (max-width: 700px) {
@@ -328,6 +350,36 @@ footer {
         line-height: 4.2vw;
         width: 100%;
     }
+
+    .container-p1 img{
+        display: none;
+    }
+    .container-p1 .content-first h1{
+        align-text: center;
+        font-size: 6vw;
+        margin-bottom: 6vw;
+        padding: 0 2vw 0 2vw;   
+    }
+    
+    .container-p1 .content-first h3{
+        padding: 0 2vw 0 2vw;
+        align-text: center;
+        margin-bottom: 6vw;
+        
+    }
+
+    .container-p2 .content-first h1{
+        font-size: 8vw;
+        line-height: 140%;
+        margin-bottom: 1vw;
+    }
+
+    .container-p2 .content-first h6{
+        font-size: 6vw;
+        margin-bottom: 6vw;
+
+    }  
+    
 }
 
 @media screen and (max-width: 600px) {
@@ -356,6 +408,9 @@ footer {
         line-height: 5vw;
         width: 100%;
         margin-top: 20px;
+    }
+    .container-p1 img{
+        display: none;
     }
    
 }
@@ -387,6 +442,9 @@ footer {
         display: flex;
         gap: 30px;
     }
+    .container-p1 img{
+        display: none;
+    }
 }
 
 @media screen and (max-width: 400px) {
@@ -406,5 +464,8 @@ footer {
         line-height: 6.8vw;
         color: #fff;
         margin-top: 6vw;
+    }
+    .container-p1 img{
+        display: none;
     }
 }
