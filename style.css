@@ -142,12 +142,75 @@ header .header-form form{
     margin-bottom: 20px;
 }
 
+.container-p1{
+    display: flex;
+}
 
+.container-p1 .content-first{
+    display: flex;
+    flex-direction: column;
+    padding: 2vw;
+}
 
-#intro{
+.container-p1 .content-first h1{
+    margin-bottom: 2vw;
+    text-align: start;
+}
+
+.container-p2 .content-first{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 2vw;
+}
+
+.container-p2 .content-first h1{
+    font-family: Montserrat, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+    font-size: 2.5vw;
+    line-height: 2.7vw;
+    margin-bottom: 0.3vw;
+}
+
+.container-p2 .content-first h6{
+    font-family: Montserrat, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+    font-size: 1vw;
+    font-weight: 500;
+}
+
+.container-p2 .owl-theme{
+    width: 95vw;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1vw;
+}
+
+.container-p2 .owl-theme .swiper-slide{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5vw;
+    text-align: center;
+}
+
+.container-p2 .owl-theme .swiper-slide p{
+    font-family: Montserrat, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+    font-size: 1.5vw;
+}
+
+.container-p2 .owl-theme button{
+    background-image: linear-gradient(90deg, #003780ff 0%, #2ab2e8ff 100%);
+    padding: 0.8vw;
+    border: none;
+    border-radius: 10px;
+    color: #fff;
+}
+
+/*#intro{
     padding: 1rem 5rem 1rem 5rem;
    
-
     h1, h4{
         margin-bottom:1rem;
         line-height: 1.4;
@@ -157,9 +220,7 @@ header .header-form form{
     h4{
         margin-bottom:3rem;
     }
-
-
-}
+}*/
 
 
 
