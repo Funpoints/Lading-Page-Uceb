@@ -3,7 +3,9 @@ $('#carousel-1').owlCarousel({
   margin: 40,
   autoplay: true,
   autoplayTimeout: 4000,
-  nav:true,
+  nav:false,
+  dots: false,
+
   responsive:{
       400:{
           items:1
@@ -11,11 +13,14 @@ $('#carousel-1').owlCarousel({
       600:{
           items:1
       },
+      700:{
+          items:1
+      },      
       1000:{
           items:3
       }
   }
-})
+});
 
 $('#carousel-2').owlCarousel({
   loop:true,
@@ -42,7 +47,3 @@ const navbarLinks = document.getElementsByClassName('navbar-links')[0]
 toggleButton.addEventListener('click', () => {
   navbarLinks.classList.toggle('active')
 })
-
-
-
-
