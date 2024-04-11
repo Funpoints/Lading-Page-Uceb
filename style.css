@@ -270,27 +270,30 @@ main{
 
 .container-p3 .content-first .content button{
     background-image: linear-gradient(90deg, #003780ff 0%, #2ab2e8ff 100%);
-    padding: 0.8vw;
     border: none;
     border-radius: 10px;
     color: #fff;
     margin-top: 2vw;
-    width: 30vw;
-    height: 4vw;
-    font-size: 1.2vw;
+    width: 340px;
+    height: 60px;
+    font-size: 14px;
     font-weight: bold;
+    font-family: Montserrat, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans';
 }
 
 .container-p3 .content-first .content h1{
-    font-size: 4.5vw;
-    line-height: 4.5vw;
+    line-height: 2.7vw;
     margin-bottom: 2.2vw;
     text-align: start;
+    font-family: Montserrat, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans';
+    font-weight: semi-bold;
+    font-size: 3vw;
 }
 
-.container-p3 .content-first .content p{
-    font-size: 2vw;
-    line-height: 2.5vw;
+.container-p3 .content-first .content h3{
+    line-height: 160%;
+    font-family: Montserrat, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans';
+    font-weight: regular;
 }
 
 .container-p3 .owl-theme{
@@ -384,9 +387,27 @@ footer {
     }
 }
 
+@media screen and (max-width: 1200px){
+    .container-p3 .content-first .content button{
+        width: 300px;
+        height: 50px;
+        font-size: 13px;
+    }
+}
+
 @media screen and (max-width: 1000px) {
     .logo-navbar{
         width: 60%;
+    }
+
+    /*--------------------- container-p3 ---------------------*/
+    .container-p3 .content-first .content h1{
+        line-height: 3.6vw;
+        margin-bottom: 2.2vw;
+        text-align: start;
+        font-family: Montserrat, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans';
+        font-weight: semi-bold;
+        font-size: 4vw;
     }
 }
 
@@ -624,6 +645,13 @@ footer {
     /*--------------------- container-p1 ---------------------*/
     .container-p1 img{
         display: none;
+    }
+
+    .container-p3 .content-first .content button{
+        width: 280px;
+        height: 50px;
+        font-size: 12px;
+        margin-top: 15px;
     }
 
     /*--------------------- container-p3 ---------------------*/
