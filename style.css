@@ -212,6 +212,7 @@ main{
     height:25rem;
     width:25rem;
     padding: 1.5vw;
+    margin-bottom: 2vw;
 }
 
 .container-p2 .owl-theme .swiper-slide p{
@@ -220,17 +221,23 @@ main{
     font-size: 1.5vw;
 }
 
-.container-p2 .owl-theme button{
+.container-p2 .owl-theme .container-p2-btn-carousel{
     position: absolute;
-    bottom: 1vw;
+    bottom: 2.5rem;
     background-image: linear-gradient(90deg, #003780ff 0%, #2ab2e8ff 100%);
     padding: 0.8vw;
     border: none;
-    border-radius: 8px;
+    border-radius: 10px;
     color: #fff;
-   
-   
+    
+    
 }
+
+
+
+
+
+
 
 /*--------------------- container-p3 ---------------------*/
 .container-p3{
@@ -571,6 +578,37 @@ footer {
         display: none;
     }
 
+    
+ /*--------------------- Container-p2 ---------------------*/
+ .container-p2 .owl-theme .swiper-slide{
+    padding: 15px;
+    width: 100%;
+    background-color: #ffffffb2;
+    border-radius: 15px;
+}
+
+.container-p2 .owl-theme .swiper-slide h1{
+    margin-bottom: 10px;
+    font-size: 40px;
+}
+
+.container-p2 .owl-theme .swiper-slide p{
+    line-height: 25px;
+    font-size: 17px;
+}
+
+.container-p2 .owl-theme .container-p-btn-carousel{
+    padding: 10px;
+    margin-top: 22px;
+    width: 300px;
+    height: 40px;
+    font-size: 13px;
+    bottom: 5vw;
+}
+
+
+
+
     /*--------------------- Container-p3 ---------------------*/
     .container-p3 .content-first{
         display: flex;
@@ -619,7 +657,7 @@ footer {
     .container-p3 .owl-theme{
         width: 500px;
     }
-    
+
     .container-p3 .owl-theme .swiper-slide{
         padding: 15px;
         width: 100%;
@@ -771,6 +809,14 @@ footer {
         margin-bottom: 6vw;
 
     }  
+    .container-p2 .owl-theme .swiper-slide p {
+        
+        font-size: 6vw;
+        
+    }
+
+   
+    
     
 }
 
