@@ -41,6 +41,28 @@ $('#carousel-2').owlCarousel({
   }
 })
 
+$('#carousel-4').owlCarousel({
+  loop:true,
+  margin: 10,
+  autoplay: true,
+  autoplayTimeout: 4000,
+  nav:true,
+  responsive:{
+      0:{
+        items:1
+      },
+      400:{
+          items:1
+      },
+      600:{
+          items:1
+      },
+      1000:{
+          items:1
+      }
+  }
+})
+
 const toggleButton = document.getElementsByClassName('toggle-button')[0]
 const navbarLinks = document.getElementsByClassName('navbar-links')[0]
 
