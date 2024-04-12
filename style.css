@@ -1000,10 +1000,24 @@ footer {
         font-size: 40px;
     }
     
-    .container-p5 .owl-theme .swiper-slide p{
-        line-height: 25px;
-        font-size: 17px;
+ 
+
+
+
+    .container-p6 .swiper-slide .author p:first-child {
+        font-size: 1.3vw;
+        font-weight: 500;
     }
+    
+    .container-p6 .swiper-slide .author p:nth-child(2) {
+        font-size: 0.8vw;
+        font-weight: 300;
+    }
+    
+
+
+
+
 
     .container-p5 .owl-theme .container-p5-btn-carousel{
         padding: 10px;
@@ -1014,6 +1028,13 @@ footer {
     }
     
 }
+
+
+
+ 
+
+
+
 
 @media screen and (max-width: 700px) {
     /*--------------------- Header ---------------------*/
@@ -1084,6 +1105,34 @@ footer {
     }
     
 }
+
+   /*--------------------- Container-p6 ---------------------*/
+    .container-p6 .owl-theme .swiper-slide{
+    padding: 15px;
+    width: 100%;
+    background-color: #ffffffb2;
+    border-radius: 15px;
+}
+
+.container-p6 .owl-theme .swiper-slide h4{
+    margin-bottom: 10px;
+    font-size: 22px;
+}
+
+.container-p6 .owl-theme .swiper-slide .author p{
+    line-height: 25px;
+    font-size: 22px;
+}
+
+.container-p6 .owl-theme .container-p-btn-carousel{
+    padding: 10px;
+    margin-top: 22px;
+    width: 300px;
+    height: 40px;
+    font-size: 13px;
+}
+
+  
 
 @media screen and (max-width: 600px) {
     /*--------------------- Header ---------------------*/
