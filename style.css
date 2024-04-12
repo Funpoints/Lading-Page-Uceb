@@ -538,6 +538,100 @@ main{
     color: #fff;
     margin-top: 2vw;
 }
+
+
+
+/*--------------------- container-p6 ---------------------*/
+
+.container-p6{
+    background-image: linear-gradient(90deg, #003780ff 0%, #2ab2e8ff 100%);
+    color:#fff;
+}
+
+.container-p6 .content-first{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 2vw;
+}
+
+.container-p6 .content-first h1{
+    font-family: Montserrat, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+    font-size: 2.5vw;
+    line-height: 2.7vw;
+    margin-bottom: 0.5vw;
+}
+
+.container-p6 .content-first h6{
+    font-family: Montserrat, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+    font-size: 1vw;
+    font-weight: 500;
+}
+
+.container-p6 .owl-theme{
+    width: 95vw;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1vw;
+}
+
+.container-p6 .owl-theme .swiper-slide{
+    border-radius: 10px;
+    box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5vw;
+    text-align: left;
+    padding: 2vw;
+    width: 100%;
+    background-color: #fff;
+    color: #495057;
+}
+
+.container-p6 .swiper-slide .author {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    
+}
+
+.container-p6 .swiper-slide .author p:first-child {
+    font-size: 1.3vw;
+    font-weight: 500;
+}
+
+.container-p6 .swiper-slide .author p:nth-child(2) {
+    font-size: 0.8vw;
+    font-weight: 300;
+}
+
+
+
+.container-p6 .owl-theme .swiper-slide h4{
+    font-family: Montserrat, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+    font-size: 1.2vw;
+    font-style: italic;
+    font-weight: 500;
+}
+
+.container-p6 .owl-theme .swiper-slide p{
+    font-family: Montserrat, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+    
+}
+
+
+
+
+
+
+
 /*--------------------- Fim Main ---------------------*/
 
 /*--------------------- Footer ---------------------*/
