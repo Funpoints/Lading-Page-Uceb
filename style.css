@@ -241,6 +241,7 @@ main{
     background-image: linear-gradient(109.6deg, #2ab2e8ff 0%, #003780ff 100%);
     border-radius: 0 0 20px 20px;
     position: relative;
+    margin-top: 50px;
 }
 
 .container-p3-img {
@@ -252,6 +253,7 @@ main{
     background-image: url('./img/predio.svg'); 
     background-size: cover; 
     background-position: center right;
+    border-radius: 0 0 20px 20px;
 }
 
 .container-p3 .content-first{
@@ -337,6 +339,99 @@ main{
     margin-top: 2vw;
 }
 
+/*--------------------- container-p4 ---------------------*/
+.container-p4{
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 0 0 20px 20px;
+    position: relative;
+    margin-top: 50px;
+}
+
+.container-p4 .content-first{
+    font-family: Montserrat, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+    color: #495057;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    text-align: start;
+    padding: 2vw;
+}
+
+.container-p4 .content-first .content{
+    padding: 1vw;
+    width: 60%;
+    margin-left: 3vw;
+}
+
+.container-p4 .content-first .content button{
+    background-color: transparent;
+    border: 2px solid #2AB2E8;
+    border-radius: 20px;
+    color: #495057;
+    margin-top: 2vw;
+    width: 340px;
+    height: 50px;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: Montserrat, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans';
+    cursor: pointer;
+}
+
+.container-p4 .content-first .content h1{
+    line-height: 2.7vw;
+    margin-bottom: 2.2vw;
+    text-align: start;
+    font-family: Montserrat, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans';
+    font-weight: semi-bold;
+    font-size: 3vw;
+}
+
+.container-p4 .content-first .content h3{
+    line-height: 160%;
+    font-family: Montserrat, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans';
+    font-weight: normal;
+}
+
+.container-p4 .owl-theme{
+    width: 35vw;
+}
+
+.container-p4 .owl-theme .swiper-slide{
+    display: flex;
+    flex-direction: column;
+    padding: 0.5vw;
+    width: 100%;
+    background-color: #ffffffb2;
+    align-items: center;
+    border-radius: 1.5vw;
+}
+
+.container-p4 .owl-theme .swiper-slide h1{
+    margin-bottom: 1vw;
+    text-align: center;
+    font-size: 4vw;
+    color: #003780;
+}
+
+.container-p4 .owl-theme .swiper-slide p{
+    line-height: 2.5vw;
+    text-align: center;
+    font-size: 2vw;
+    color: #003780;
+}
+
+.container-p4 .owl-theme .container-p4-btn-carousel{
+    background-image: linear-gradient(90deg, #003780ff 0%, #2ab2e8ff 100%);
+    padding: 0.8vw;
+    border: none;
+    border-radius: 10px;
+    color: #fff;
+    margin-top: 2vw;
+}
+
 /*--------------------- container-p5 ---------------------*/
 .container-p5{
     display: flex;
@@ -344,6 +439,7 @@ main{
     background-image: linear-gradient(90deg, #003780ff 0%, #2ab2e8ff 100%);
     border-radius: 0 0 20px 20px;
     position: relative;
+    margin-top: 50px;
 }
 
 .container-p5-img {
@@ -356,6 +452,7 @@ main{
     background-size: cover; 
     background-position: center left;
     transform: scaleX(-1);
+    border-radius: 0 0 20px 20px;
 }
 
 .container-p5 .content-first{
@@ -674,6 +771,80 @@ footer {
         font-size: 13px;
     }
 
+    /*--------------------- Container-p4 ---------------------*/
+    .container-p4 .content-first{
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+
+    .container-p4-img {
+        display: none;
+    }
+
+    .container-p4 .content-first .content{
+        padding: 1vw;
+        width: 90%;
+        margin-left: 0;
+    }
+
+    .container-p4 .content-first .content button{
+        width: 300px;
+        height: 50px;
+        font-size: 13px;
+    }
+
+    .container-p4 img{
+        width: 80%;
+        margin-left: auto;
+    }
+    
+    .container-p4 .content-first .content{
+        margin-bottom: 8vw;
+    }
+
+    .container-p4 .content-first .content h1{
+        text-align: center;
+        line-height: 40px;
+        font-size: 35px;
+    }
+
+    .container-p4 .content-first .content p{
+        font-size: 17px;
+        line-height: 28px;
+    }
+
+    .container-p4 .owl-theme{
+        width: 500px;
+    }
+
+    .container-p4 .owl-theme .swiper-slide{
+        padding: 15px;
+        width: 100%;
+        background-color: #ffffffb2;
+        border-radius: 15px;
+    }
+
+    .container-p4 .owl-theme .swiper-slide h1{
+        margin-bottom: 10px;
+        font-size: 40px;
+    }
+    
+    .container-p4 .owl-theme .swiper-slide p{
+        line-height: 25px;
+        font-size: 17px;
+    }
+
+    .container-p4 .owl-theme .container-p4-btn-carousel{
+        padding: 10px;
+        margin-top: 22px;
+        width: 300px;
+        height: 40px;
+        font-size: 13px;
+    }
+
     /*--------------------- Container-p5 ---------------------*/
     .container-p5 .content-first{
         display: flex;
@@ -921,6 +1092,43 @@ footer {
         font-size: 13px;
     }
 
+    /*--------------------- container-p4 ---------------------*/
+    .container-p4 .content-first .content button{
+        width: 280px;
+        height: 50px;
+        font-size: 12px;
+        margin-top: 15px;
+    }
+
+    .container-p4 .owl-theme{
+        width: 300px;
+    }
+    
+    .container-p4 .owl-theme .swiper-slide{
+        padding: 15px;
+        width: 100%;
+        background-color: #ffffffb2;
+        border-radius: 15px;
+    }
+    
+    .container-p4 .owl-theme .swiper-slide h1{
+        margin-bottom: 10px;
+        font-size: 30px;
+    }
+    
+    .container-p4 .owl-theme .swiper-slide p{
+        line-height: 25px;
+        font-size: 15px;
+    }
+    
+    .container-p4 .owl-theme .container-p4-btn-carousel{
+        padding: 10px;
+        margin-top: 22px;
+        width: 200px;
+        height: 40px;
+        font-size: 13px;
+    }
+
     /*--------------------- container-p5 ---------------------*/
     .container-p5 .content-first .content button{
         width: 280px;
@@ -1006,6 +1214,12 @@ footer {
 
     /*--------------------- container-p3 ---------------------*/
     .container-p3 .content-first .content button{
+        width: 100%;
+        height: 50px;
+    }
+
+    /*--------------------- container-p4 ---------------------*/
+    .container-p4 .content-first .content button{
         width: 100%;
         height: 50px;
     }
