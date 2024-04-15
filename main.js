@@ -87,7 +87,7 @@ $('#carousel-5').owlCarousel({
   loop:true,
   margin: 10,
   autoplay: true,
-  autoplayTimeout: 4000,
+  autoplayTimeout: 800,
   nav: false,
   dots: false,
   center: true,
@@ -111,7 +111,7 @@ $('#carousel-6').owlCarousel({
   loop:true,
   margin: 1,
   autoplay: true,
-  autoplayTimeout: 4000,
+  autoplayTimeout: 5000,
   nav: true,
   dots: true,
   responsive:{
@@ -134,7 +134,7 @@ $('#carousel-7').owlCarousel({
   loop:true,
   margin: 10,
   autoplay: true,
-  autoplayTimeout: 4000,
+  autoplayTimeout: 800,
   nav: false,
   dots: false,
   center: true,
@@ -156,7 +156,7 @@ $('#carousel-7').owlCarousel({
 
 $('#carousel-8').owlCarousel({
   loop:true,
-  margin: 10,
+  margin: 40,
   autoplay: true,
   autoplayTimeout: 4000,
   nav:true,
