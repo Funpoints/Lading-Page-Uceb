@@ -50,7 +50,7 @@ $('#carousel-3').owlCarousel({
         items:1
       },
       400:{
-          items:1
+          items:1,
       },
       600:{
           items:1
