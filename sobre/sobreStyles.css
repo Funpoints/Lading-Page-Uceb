@@ -402,9 +402,9 @@ header .header-form h3 {
 }
 
 .container-p5 .content-first .content ul{
-	margin-left: 6.5rem;
-	text-align: left;
+	text-align: center;
 	font-size: 1.5rem;
+	list-style-type: none;	
 }
 
 /*--------------------- Footer ---------------------*/
