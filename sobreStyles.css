@@ -368,9 +368,21 @@ header .header-form h3 {
 
 }
 
+.container-p4 .content-first h5{
+	font-size: 1.5rem;
+	margin-bottom: 2rem;
+}
+
 .content-second .content-text h3{
 	font-size: 1.125rem;
 	font-weight: bold;
 	line-height: 1.6rem;
 }
 
+
+.carousel-1 .swiper-slide {
+	display: flex;
+	justify-content: center;
+	align-items: center;	
+	
+}
