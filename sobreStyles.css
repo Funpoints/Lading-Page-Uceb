@@ -306,13 +306,14 @@ header .header-form h3 {
 	font-weight: bold;
 }
 
-/*--------------------- container-p4 - counter ---------------------*/
+/*--------------------- container-p4 - ---------------------*/
 
 .container-p4 {
 	display: flex;
-	padding: 20px;
+	
 	flex-direction: row;
 	gap: 10vw;
+	width: 100%;
 }
 
 .container-p4 .content-first {
@@ -326,6 +327,8 @@ header .header-form h3 {
 	text-align: center;
 	
 }
+
+
 .container-p4 .content-first h2 {
 	margin-bottom: 1vw;
 	font-size: 2.5vw;
@@ -337,3 +340,37 @@ header .header-form h3 {
 	
 	font-weight: normal;
 }
+
+.container-p4 .wrapper{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding: 2vw;
+	width: 100%;
+}
+
+.content-second{
+	display: flex;
+	align-items: center;
+	gap:10rem;
+	justify-content: space-around;
+	width: 100%;
+	margin-bottom: 4rem;
+}
+
+
+.content-second .content-text{
+	width: 50%;
+}
+
+.content-second .image-container{
+	width: 50%;
+
+}
+
+.content-second .content-text h3{
+	font-size: 1.125rem;
+	font-weight: bold;
+	line-height: 1.6rem;
+}
+
