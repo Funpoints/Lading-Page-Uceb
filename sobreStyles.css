@@ -306,7 +306,7 @@ header .header-form h3 {
 	font-weight: bold;
 }
 
-/*--------------------- container-p4 - ---------------------*/
+/*--------------------- container-p4 ---------------------*/
 
 .container-p4 {
 	display: flex;
@@ -317,7 +317,7 @@ header .header-form h3 {
 }
 
 .container-p4 .content-first {
-	background-color: #003780ff;
+	background-image: linear-gradient(90deg, #003780ff 0%, #2ab2e8ff 100%);
 	color: #fff;
 	display: flex;
 	flex-direction: column;
@@ -386,3 +386,56 @@ header .header-form h3 {
 	align-items: center;	
 	
 }
+
+
+/*--------------------- container-p5 ---------------------*/
+
+
+.container-p5{
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+}
+
+.container-p5 .content-first {
+	width: 70%;
+	display: flex;
+	justify-content: space-between;
+	align-items: start;
+	padding: 2vw;
+	width: 100%;
+
+	
+	
+}
+.container-p5 .content-first .content{
+
+	width: 50%;
+}
+
+
+.container-p5 .content-first .content p{
+	margin: 0 2rem 0 2rem;
+	font-size: 1.5rem;
+}
+
+.container-p5 .content-first .content{
+	width:30%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+.container-p5 .content-first .content img{
+	width: 8rem;
+	margin:2rem;
+}
+
+.container-p5 .content-first .content ul{
+	margin-left: 6.5rem;
+	text-align: left;
+	font-size: 1.5rem;
+}
+
