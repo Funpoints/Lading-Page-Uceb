@@ -13,6 +13,29 @@ body {
     color: #495057;
 }
 
+::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+    -webkit-border-radius: 16px;
+}
+
+::-webkit-scrollbar-track-piece {
+    background-color:rgb(0, 0, 0) transparent;
+    -webkit-border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:vertical {
+    height: 5px;
+    background-color: #2ab2e8ff;
+    -webkit-border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:horizontal {
+    width: 5px;
+    background-color: rgb(0, 0, 0) transparent;
+    -webkit-border-radius: 3px;
+}
+
 /*--------------------- Inicio Header ---------------------*/
 .navbar {
     display: flex;
@@ -422,45 +445,49 @@ main{
 }
 
 .container-p4 .owl-theme{
-    width: 35vw;
-    -webkit-box-shadow: 1px 0px 15px -2px rgba(0,0,0,0.3); 
-    box-shadow: 1px 0px 15px -2px rgba(0,0,0,0.3);
+    width: 30vw;
     border-radius: 20px;
-
 }
 
 .container-p4 .owl-theme .swiper-slide{
     display: flex;
     flex-direction: column;
-    padding: 0.5vw;
-    width: 100%;
-    background-color: #ffffffb2;
+    padding: 1vw;
+    height: 28rem;
+    width: 80%;
     align-items: center;
-    border-radius: 1.5vw;
+    justify-content: center;
+    border-radius: 0.7vw;
+    margin-bottom: 1vw;
+    margin-left: auto;
+    margin-right: auto;
+    -webkit-box-shadow: 4px 8px 20px -7px rgba(0,0,0,0.18); 
+    box-shadow: 4px 8px 20px -7px rgba(0,0,0,0.18);
 }
 
 .container-p4 .owl-theme .swiper-slide .container-p4-icon{
-    width: 100px;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    width: 5rem;
+    margin-top: 1.3vw;
+    margin-bottom: 1vw;
     margin-left: auto;
     margin-right: auto;
 }
 
 .container-p4 .owl-theme .swiper-slide h1{
-    margin-bottom: 1vw;
     font-family: Montserrat, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans';
     text-align: center;
-    font-size: 1.5vw;
+    font-size: 2rem;
     color: #003780;
+    line-height: 2rem;
 }
 
 .container-p4 .owl-theme .swiper-slide p{
-    font-size: 1.2vw;
-    line-height: 1.5vw;
+    font-size: 1.6rem;
+    line-height: 1.8rem;
     font-family: Montserrat, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans';
     text-align: center;
     color: #003780;
+    font-weight: normal;
 }
 
 .container-p4 .owl-theme .container-p4-btn-carousel{
@@ -1101,19 +1128,20 @@ footer {
 
     .container-p4 .owl-theme .swiper-slide{
         padding: 15px;
-        width: 100%;
+        /*width: 100%;*/
         background-color: #ffffffb2;
         border-radius: 15px;
     }
 
     .container-p4 .owl-theme .swiper-slide h1{
-        margin-bottom: 10px;
+        margin-bottom: 30px;
         font-size: 40px;
     }
     
     .container-p4 .owl-theme .swiper-slide p{
         line-height: 25px;
         font-size: 17px;
+        margin-top: 30px;
     }
 
     .container-p4 .owl-theme .container-p4-btn-carousel{
@@ -1486,14 +1514,15 @@ footer {
     }
 
     .container-p4 .owl-theme{
-        width: 300px;
+        width: 350px;
     }
     
     .container-p4 .owl-theme .swiper-slide{
         padding: 15px;
-        width: 100%;
+        width: 90%;
         background-color: #ffffffb2;
         border-radius: 15px;
+        height: 20rem;
     }
     
     .container-p4 .owl-theme .swiper-slide h1{
@@ -1503,7 +1532,7 @@ footer {
     
     .container-p4 .owl-theme .swiper-slide p{
         line-height: 25px;
-        font-size: 15px;
+        font-size: 17px;
     }
     
     .container-p4 .owl-theme .container-p4-btn-carousel{
