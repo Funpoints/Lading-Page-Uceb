@@ -331,33 +331,39 @@ main{
 }
 
 .container-p3 .owl-theme{
-    width: 37vw;
+    width: 30vw;
 }
 
 .container-p3 .owl-theme .swiper-slide{
     display: flex;
     flex-direction: column;
-    padding: 0.5vw;
-    width: 100%;
-    background-color: #ffffffb2;
+    padding: 4vw;
+    height: 26rem;
+    width: 95%;
     align-items: center;
-    border-radius: 1.5vw;
+    justify-content: center;
+    background-color: #ffffffb2;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 0.7vw;
 }
 
 .container-p3 .owl-theme .swiper-slide h1{
     margin-bottom: 1vw;
     font-family: Montserrat, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans';
     text-align: center;
-    font-size: 1.5vw;
+    font-size: 2rem;
+    line-height: 2rem;
     color: #003780;
 }
 
 .container-p3 .owl-theme .swiper-slide p{
-    font-size: 1.2vw;
-    line-height: 1.5vw;
+    font-size: 1.6rem;
+    line-height: 1.8rem;
     text-align: center;
     color: #003780;
     font-family: Montserrat, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans';
+    font-weight: normal;
 }
 
 .container-p3 .owl-theme .container-p3-btn-carousel{
@@ -552,45 +558,47 @@ main{
 }
 
 .container-p5 .owl-theme{
-    width: 35vw;
-    -webkit-box-shadow: 1px 0px 15px -2px rgba(0,0,0,0.3); 
-    box-shadow: 1px 0px 15px -2px rgba(0,0,0,0.3);
-    border-radius: 20px;
-    background-color: #ffffffb2;
+    width: 30vw;
 }
 
 .container-p5 .owl-theme .swiper-slide .container-p5-icon{
-    width: 100px;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    width: 5rem;
+    margin-top: 1.3vw;
+    margin-bottom: 1vw;
     margin-left: auto;
     margin-right: auto;
 }
 
-
 .container-p5 .owl-theme .swiper-slide{
     display: flex;
     flex-direction: column;
-    padding: 0.5vw;
-    width: 100%;
+    padding: 4vw;
+    height: 26rem;
+    width: 95%;
     align-items: center;
-    border-radius: 1.5vw;
+    justify-content: center;
+    background-color: #ffffffb2;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 0.7vw;
 }
 
 .container-p5 .owl-theme .swiper-slide h1{
-    margin-bottom: 1vw;
     font-family: Montserrat, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans';
     text-align: center;
-    font-size: 1.5vw;
+    font-size: 2rem;
     color: #003780;
+    line-height: 2rem;
+    margin-bottom: 1.9vw;
 }
 
 .container-p5 .owl-theme .swiper-slide p{
-    line-height: 1.5vw;
-    font-family: Montserrat, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans';
+    font-size: 1.6rem;
+    line-height: 1.8rem;
     text-align: center;
-    font-size: 1.2vw;
     color: #003780;
+    font-family: Montserrat, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans';
+    font-weight: normal;
 }
 
 .container-p5 .owl-theme .container-p5-btn-carousel{
@@ -820,6 +828,21 @@ footer {
 
 /*--------------------- Responsive ---------------------*/
 @media screen and (max-width: 1680px){
+    /*--------------------- container-p3 ---------------------*/
+    .container-p3 .owl-theme{
+        width: 40vw;
+    }
+
+    .container-p3 .owl-theme .swiper-slide{
+        width: 90%;
+    }
+
+    .container-p3 .owl-theme .swiper-slide p{
+        font-size: 1.3rem;
+        line-height: 1.8rem;
+    }
+
+    /*--------------------- container-p4 ---------------------*/
     .container-p4 .owl-theme{
         width: 40vw;
     }
@@ -831,6 +854,20 @@ footer {
     .container-p4 .owl-theme .swiper-slide p{
         font-size: 1.3rem;
         line-height: 1.6rem;
+    }
+
+    /*--------------------- container-p5 ---------------------*/
+    .container-p5 .owl-theme{
+        width: 40vw;
+    }
+
+    .container-p5 .owl-theme .swiper-slide{
+        width: 90%;
+    }
+
+    .container-p5 .owl-theme .swiper-slide p{
+        font-size: 1.3rem;
+        line-height: 1.8rem;
     }
 }
 
@@ -885,6 +922,14 @@ footer {
         font-size: 4vw;
     }
 
+    .container-p3 .owl-theme{
+        width: 41vw;
+    }
+
+    .container-p3 .owl-theme .swiper-slide{
+        width: 95%;
+    }
+
     /*--------------------- container-p4 ---------------------*/
     .container-p4 .owl-theme{
         width: 41vw;
@@ -902,6 +947,14 @@ footer {
         font-family: Montserrat, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans';
         font-weight: semi-bold;
         font-size: 4vw;
+    }
+
+    .container-p5 .owl-theme{
+        width: 41vw;
+    }
+    
+    .container-p5 .owl-theme .swiper-slide{
+        width: 95%;
     }
 
     /*--------------------- container-p6 ---------------------*/
@@ -1066,13 +1119,14 @@ footer {
     }
 
     .container-p3 .owl-theme .swiper-slide h1{
-        margin-bottom: 10px;
+        margin-bottom: 30px;
         font-size: 40px;
+        line-height: 40px;
     }
     
     .container-p3 .owl-theme .swiper-slide p{
         line-height: 25px;
-        font-size: 17px;
+        font-size: 20px;
     }
 
     .container-p3 .owl-theme .container-p3-btn-carousel{
@@ -1214,13 +1268,14 @@ footer {
     }
 
     .container-p5 .owl-theme .swiper-slide h1{
-        margin-bottom: 10px;
+        margin-bottom: 30px;
         font-size: 40px;
     }
 
     .container-p5 .owl-theme .swiper-slide p{
-        font-size: 17px;
-        line-height: 28px;
+        line-height: 25px;
+        font-size: 20px;
+        margin-top: 30px;
     }
     
     .container-p6 .swiper-slide .author p:first-child {
@@ -1478,24 +1533,26 @@ footer {
     }
 
     .container-p3 .owl-theme{
-        width: 300px;
+        width: 350px;
     }
     
     .container-p3 .owl-theme .swiper-slide{
         padding: 15px;
-        width: 100%;
+        width: 90%;
         background-color: #ffffffb2;
         border-radius: 15px;
+        height: 20rem;
     }
     
     .container-p3 .owl-theme .swiper-slide h1{
         margin-bottom: 10px;
         font-size: 30px;
+        line-height: 30px;
     }
     
     .container-p3 .owl-theme .swiper-slide p{
         line-height: 25px;
-        font-size: 15px;
+        font-size: 17px;
     }
     
     .container-p3 .owl-theme .container-p3-btn-carousel{
@@ -1553,23 +1610,25 @@ footer {
     }
 
     .container-p5 .owl-theme{
-        width: 300px;
+        width: 350px;
     }
     
     .container-p5 .owl-theme .swiper-slide{
         padding: 15px;
-        width: 100%;
+        width: 90%;
         border-radius: 15px;
+        height: 20rem;
     }
     
     .container-p5 .owl-theme .swiper-slide h1{
         margin-bottom: 10px;
         font-size: 30px;
+        line-height: 30px;
     }
     
     .container-p5 .owl-theme .swiper-slide p{
         line-height: 25px;
-        font-size: 15px;
+        font-size: 17px;
     }
     
     .container-p5 .owl-theme .container-p5-btn-carousel{
