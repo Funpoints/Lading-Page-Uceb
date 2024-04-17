@@ -393,7 +393,7 @@ main{
 .container-p4 .content-first .content{
     padding: 1vw;
     width: 60%;
-    margin-left: 3vw;
+    margin-left: 2vw;
 }
 
 .container-p4 .content-first .content button{
@@ -433,9 +433,9 @@ main{
 .container-p4 .owl-theme .swiper-slide{
     display: flex;
     flex-direction: column;
-    padding: 1vw;
-    height: 28rem;
-    width: 80%;
+    padding: 4vw;
+    height: 26rem;
+    width: 95%;
     align-items: center;
     justify-content: center;
     border-radius: 0.7vw;
@@ -460,6 +460,7 @@ main{
     font-size: 2rem;
     color: #003780;
     line-height: 2rem;
+    margin-bottom: 1.9vw;
 }
 
 .container-p4 .owl-theme .swiper-slide p{
@@ -818,6 +819,21 @@ footer {
 }
 
 /*--------------------- Responsive ---------------------*/
+@media screen and (max-width: 1680px){
+    .container-p4 .owl-theme{
+        width: 40vw;
+    }
+    
+    .container-p4 .owl-theme .swiper-slide{
+        width: 90%;
+    }
+
+    .container-p4 .owl-theme .swiper-slide p{
+        font-size: 1.3rem;
+        line-height: 1.6rem;
+    }
+}
+
 @media screen and (max-width: 1450px){
     header .section-headear {
         top: 12vw;
@@ -867,6 +883,15 @@ footer {
         font-family: Montserrat, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans';
         font-weight: semi-bold;
         font-size: 4vw;
+    }
+
+    /*--------------------- container-p4 ---------------------*/
+    .container-p4 .owl-theme{
+        width: 41vw;
+    }
+    
+    .container-p4 .owl-theme .swiper-slide{
+        width: 95%;
     }
 
     /*--------------------- container-p3 ---------------------*/
@@ -1121,7 +1146,7 @@ footer {
     
     .container-p4 .owl-theme .swiper-slide p{
         line-height: 25px;
-        font-size: 17px;
+        font-size: 20px;
         margin-top: 30px;
     }
 
