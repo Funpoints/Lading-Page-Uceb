@@ -15,11 +15,35 @@
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>UCEB - Sobre</title>
 </head>
+<style>
+    ::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+    -webkit-border-radius: 16px;
+    }
+
+    ::-webkit-scrollbar-track-piece {
+        background-color:rgb(0, 0, 0) transparent;
+        -webkit-border-radius: 3px;
+    }
+
+    ::-webkit-scrollbar-thumb:vertical {
+        height: 5px;
+        background-color: #2ab2e8ff;
+        -webkit-border-radius: 3px;
+    }
+
+    ::-webkit-scrollbar-thumb:horizontal {
+        width: 5px;
+        background-color: rgb(0, 0, 0) transparent;
+        -webkit-border-radius: 3px;
+    }
+</style>
 
 <body>
     <header>
         <nav class="navbar">
-            <div class="brand-title"><img class="logo-navbar" src="../img/logo-uceb.svg" alt="logo"></div>
+            <div class="brand-title"><a href="http://127.0.0.1:5500/"><img class="logo-navbar" src="../img/logo-uceb.svg" alt="logo"></a></div>
             <a href="#" class="toggle-button">
                 <span class="bar"></span>
                 <span class="bar"></span>
