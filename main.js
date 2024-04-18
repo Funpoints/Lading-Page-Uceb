@@ -176,6 +176,28 @@ $('#carousel-8').owlCarousel({
   }
 })
 
+$('#carousel-9').owlCarousel({
+  loop:true,
+  margin: 40,
+  autoplay: false,
+  autoplayTimeout: 5000,
+  nav: true,
+  dots: true,
+  responsive:{
+      0:{
+        items:1
+      },
+      600:{
+          items:1
+      },
+      1000:{
+          items:2
+      }
+  }
+})
+
+
+
 const toggleButton = document.getElementsByClassName('toggle-button')[0]
 const navbarLinks = document.getElementsByClassName('navbar-links')[0]
 

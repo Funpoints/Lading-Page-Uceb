@@ -279,7 +279,6 @@ main{
     display: flex;
     justify-content: center;
     align-items: end;
-    background-color: green;
 }
 
 
@@ -720,7 +719,6 @@ main{
 }
 
 /*--------------------- container-p7 ---------------------*/
-
 .container-p7{
     background-image: linear-gradient(90deg, #003780ff 0%, #2ab2e8ff 100%);
     color:#fff;
@@ -781,9 +779,6 @@ main{
     align-items: flex-start; */
     bottom: 1rem;
     margin-left: 1rem;
-  
-
-    
 }
 
 .container-p7 .swiper-slide .author p:first-child {
@@ -795,8 +790,6 @@ main{
     font-size: 0.8vw;
     font-weight: 300;
 }
-
-
 
 .container-p7 .owl-theme .swiper-slide h4{
     font-family: Montserrat, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
@@ -810,6 +803,71 @@ main{
     font-family: Montserrat, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
     'Liberation Sans', sans-serif;
     
+}
+
+/*--------------------- container-p8 ---------------------*/
+.container-p8{
+    padding: 50px 0 150px 0;
+}
+
+.container-p8 .content-first h1{
+    font-family: Montserrat, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+    font-size: 2.5vw;
+    line-height: 2.7vw;
+    margin-bottom: 0.5vw;
+    text-align: center;
+}
+
+.container-p8 .content-first{
+    margin-bottom: 50px;
+}
+
+.container-p8 .owl-theme{
+    width: 75vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container-p8 .owl-theme .swiper-slide{
+    padding: 2vw;
+    border-radius: 1.2vw;
+    border:  1px solid #495057;
+}
+
+.container-p8 .swiper-slide .author {
+    position: absolute;
+    width: 100%;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start; */
+    bottom: 1rem;
+    margin-left: 1rem;
+}
+
+.container-p8 .swiper-slide .author p:first-child {
+    font-size: 1.3vw;
+    font-weight: 500;
+}
+
+.container-p8 .swiper-slide .author p:nth-child(2) {
+    font-size: 0.8vw;
+    font-weight: 300;
+}
+
+.container-p8 article .swiper-slide h1{
+    font-family: Montserrat, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+    font-size: 1.1vw;
+    margin-bottom: 0.5vw;
+    color: 495057;
+}
+
+.container-p8 article .swiper-slide p{
+    font-family: Montserrat, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+    font-size: 1.3rem;
 }
 
 /*--------------------- Fim Main ---------------------*/
@@ -919,13 +977,18 @@ footer {
 @media screen and (max-width: 1200px){
     .container-p2 .owl-theme .swiper-slide p{
         height: 180px;
-        background-color: red;
     }
 
     .container-p3 .content-first .content button{
         width: 300px;
         height: 50px;
         font-size: 13px;
+    }
+
+    .container-p8 .content-first h1{
+        font-size: 2.3rem;
+        line-height: 2.2rem;
+        margin-bottom: 10px;
     }
 }
 
@@ -1339,10 +1402,6 @@ footer {
         font-size: 13px;
     }
 
- 
-
-
-
     /*--------------------- Container-p7 ---------------------*/
     .container-p7 .content-first h1{
         font-size: 20px;
@@ -1350,6 +1409,18 @@ footer {
         margin-bottom: 20px;
         margin-top: 20px;
     }
+
+    /*--------------------- Container-p8 ---------------------*/
+    .container-p8 .content-first h1{
+        font-size: 1.8rem;
+        line-height: 1.8rem;
+        margin-bottom: 0px;
+    }
+
+    .container-p8 article .swiper-slide h1{
+        font-size: 1.8rem;
+    }
+
 }
 
 @media screen and (max-width: 700px) {
