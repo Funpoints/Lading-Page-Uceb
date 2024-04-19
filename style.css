@@ -582,8 +582,8 @@ main{
 }
 
 .container-p5 .owl-theme .swiper-slide .container-p5-icon{
-    width: 5rem;
-    margin-top: 1.3vw;
+    width: 7rem;
+    margin-top: 0.3vw;
     margin-bottom: 1vw;
     margin-left: auto;
     margin-right: auto;
@@ -609,7 +609,7 @@ main{
     font-size: 2rem;
     color: #003780;
     line-height: 2rem;
-    margin-bottom: 1.9vw;
+    margin-bottom: 0.9vw;
 }
 
 .container-p5 .owl-theme .swiper-slide p{
@@ -943,6 +943,10 @@ footer {
     .container-p5 .owl-theme .swiper-slide p{
         font-size: 1.3rem;
         line-height: 1.8rem;
+    }
+
+    .container-p5 .owl-theme .swiper-slide .container-p5-icon{
+        width: 5rem;
     }
 
     /*--------------------- container-p5 ---------------------*/
@@ -1388,7 +1392,7 @@ footer {
     .container-p5 .owl-theme .swiper-slide p{
         line-height: 25px;
         font-size: 20px;
-        margin-top: 30px;
+        margin-top: 10px;
     }
     
     .container-p6 .swiper-slide .author p:first-child {
@@ -1775,6 +1779,10 @@ footer {
         width: 200px;
         height: 40px;
         font-size: 13px;
+    }
+
+    .container-p5 .owl-theme .swiper-slide .container-p5-icon{
+        width: 5rem;
     }
 
     /*--------------------- container-p6 ---------------------*/
