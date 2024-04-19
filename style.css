@@ -51,6 +51,7 @@ body {
 .logo-navbar{
     margin-left: 21px;
     margin-top: 3%;
+    width: 85%;
 }
 
 .brand-title {
@@ -250,25 +251,36 @@ main{
 
 .container-p2 .owl-theme .swiper-slide{
     border-radius: 10px;
-    box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: 4px 8px 20px -7px rgba(0,0,0,0.18); 
+    box-shadow: 4px 8px 20px -7px rgba(0,0,0,0.18);
     display: flex;
     flex-direction: column;
-    align-items: center;
-    gap: 1.5vw;
-    text-align: center;
+    gap: 0.2vw;
     padding: 1vw;
-    width: 100%;
+    width: 97%;
+    height: 20rem;
+    margin-bottom: 1vw;
+    justify-content: center;
+    align-items: end;
 }
 
 .container-p2 .owl-theme .swiper-slide h1{
     font-family: Montserrat, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
     'Liberation Sans', sans-serif;
-    font-size: 1.2vw;
+    font-size: 2rem;
+    line-height: 30px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .container-p2 .owl-theme .swiper-slide p{
-    font-family: Montserrat, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
-    'Liberation Sans', sans-serif;
+    font-family: Montserrat, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', 'Liberation Sans', sans-serif;
+    height: 120px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
 }
 
 .container-p2 .owl-theme .container-p2-btn-carousel{
@@ -276,8 +288,17 @@ main{
     border: none;
     border-radius: 10px;
     color: #fff;
-    height: 40px;
-    width: 150px;
+    height: 50px;
+    width: 300px;
+}
+
+.container-btn{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    background-color: green;
 }
 
 
@@ -350,33 +371,39 @@ main{
 }
 
 .container-p3 .owl-theme{
-    width: 37vw;
+    width: 30vw;
 }
 
 .container-p3 .owl-theme .swiper-slide{
     display: flex;
     flex-direction: column;
-    padding: 0.5vw;
-    width: 100%;
-    background-color: #ffffffb2;
+    padding: 4vw;
+    height: 26rem;
+    width: 95%;
     align-items: center;
-    border-radius: 1.5vw;
+    justify-content: center;
+    background-color: #ffffffb2;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 0.7vw;
 }
 
 .container-p3 .owl-theme .swiper-slide h1{
     margin-bottom: 1vw;
     font-family: Montserrat, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans';
     text-align: center;
-    font-size: 1.5vw;
+    font-size: 2rem;
+    line-height: 2rem;
     color: #003780;
 }
 
 .container-p3 .owl-theme .swiper-slide p{
-    font-size: 1.2vw;
-    line-height: 1.5vw;
+    font-size: 1.6rem;
+    line-height: 1.8rem;
     text-align: center;
     color: #003780;
     font-family: Montserrat, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans';
+    font-weight: normal;
 }
 
 .container-p3 .owl-theme .container-p3-btn-carousel{
@@ -412,7 +439,7 @@ main{
 .container-p4 .content-first .content{
     padding: 1vw;
     width: 60%;
-    margin-left: 3vw;
+    margin-left: 2vw;
 }
 
 .container-p4 .content-first .content button{
@@ -452,9 +479,9 @@ main{
 .container-p4 .owl-theme .swiper-slide{
     display: flex;
     flex-direction: column;
-    padding: 1vw;
-    height: 28rem;
-    width: 80%;
+    padding: 4vw;
+    height: 26rem;
+    width: 95%;
     align-items: center;
     justify-content: center;
     border-radius: 0.7vw;
@@ -479,6 +506,7 @@ main{
     font-size: 2rem;
     color: #003780;
     line-height: 2rem;
+    margin-bottom: 1.9vw;
 }
 
 .container-p4 .owl-theme .swiper-slide p{
@@ -570,45 +598,47 @@ main{
 }
 
 .container-p5 .owl-theme{
-    width: 35vw;
-    -webkit-box-shadow: 1px 0px 15px -2px rgba(0,0,0,0.3); 
-    box-shadow: 1px 0px 15px -2px rgba(0,0,0,0.3);
-    border-radius: 20px;
-    background-color: #ffffffb2;
+    width: 30vw;
 }
 
 .container-p5 .owl-theme .swiper-slide .container-p5-icon{
-    width: 100px;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    width: 5rem;
+    margin-top: 1.3vw;
+    margin-bottom: 1vw;
     margin-left: auto;
     margin-right: auto;
 }
 
-
 .container-p5 .owl-theme .swiper-slide{
     display: flex;
     flex-direction: column;
-    padding: 0.5vw;
-    width: 100%;
+    padding: 4vw;
+    height: 26rem;
+    width: 95%;
     align-items: center;
-    border-radius: 1.5vw;
+    justify-content: center;
+    background-color: #ffffffb2;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 0.7vw;
 }
 
 .container-p5 .owl-theme .swiper-slide h1{
-    margin-bottom: 1vw;
     font-family: Montserrat, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans';
     text-align: center;
-    font-size: 1.5vw;
+    font-size: 2rem;
     color: #003780;
+    line-height: 2rem;
+    margin-bottom: 1.9vw;
 }
 
 .container-p5 .owl-theme .swiper-slide p{
-    line-height: 1.5vw;
-    font-family: Montserrat, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans';
+    font-size: 1.6rem;
+    line-height: 1.8rem;
     text-align: center;
-    font-size: 1.2vw;
     color: #003780;
+    font-family: Montserrat, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans';
+    font-weight: normal;
 }
 
 .container-p5 .owl-theme .container-p5-btn-carousel{
@@ -837,13 +867,67 @@ footer {
 }
 
 /*--------------------- Responsive ---------------------*/
+@media screen and (max-width: 1680px){
+    /*--------------------- container-p3 ---------------------*/
+    .container-p3 .owl-theme{
+        width: 40vw;
+    }
+
+    .container-p3 .owl-theme .swiper-slide{
+        width: 90%;
+    }
+
+    .container-p3 .owl-theme .swiper-slide p{
+        font-size: 1.3rem;
+        line-height: 1.8rem;
+    }
+
+    /*--------------------- container-p4 ---------------------*/
+    .container-p4 .owl-theme{
+        width: 40vw;
+    }
+    
+    .container-p4 .owl-theme .swiper-slide{
+        width: 90%;
+    }
+
+    .container-p4 .owl-theme .swiper-slide p{
+        font-size: 1.3rem;
+        line-height: 1.6rem;
+    }
+
+    /*--------------------- container-p5 ---------------------*/
+    .container-p5 .owl-theme{
+        width: 40vw;
+    }
+
+    .container-p5 .owl-theme .swiper-slide{
+        width: 90%;
+    }
+
+    .container-p5 .owl-theme .swiper-slide p{
+        font-size: 1.3rem;
+        line-height: 1.8rem;
+    }
+}
+
 @media screen and (max-width: 1450px){
     header .section-headear {
         top: 12vw;
     }
+
+    .container-p2 .owl-theme .swiper-slide h1{
+        font-size: 1.8vw;
+        line-height: 30px;
+    }
 }
 
 @media screen and (max-width: 1200px){
+    .container-p2 .owl-theme .swiper-slide p{
+        height: 180px;
+        background-color: red;
+    }
+
     .container-p3 .content-first .content button{
         width: 300px;
         height: 50px;
@@ -878,6 +962,11 @@ footer {
         line-height: 160%;
     }
 
+    /*--------------------- container-p2 ---------------------*/
+    .container-p2 .owl-theme .swiper-slide h1{
+        font-size: 2rem;
+    }
+
     /*--------------------- container-p3 ---------------------*/
     .container-p3 .content-first .content h1{
         line-height: 3.6vw;
@@ -888,6 +977,23 @@ footer {
         font-size: 4vw;
     }
 
+    .container-p3 .owl-theme{
+        width: 41vw;
+    }
+
+    .container-p3 .owl-theme .swiper-slide{
+        width: 95%;
+    }
+
+    /*--------------------- container-p4 ---------------------*/
+    .container-p4 .owl-theme{
+        width: 41vw;
+    }
+    
+    .container-p4 .owl-theme .swiper-slide{
+        width: 95%;
+    }
+
     /*--------------------- container-p3 ---------------------*/
     .container-p5 .content-first .content h1{
         line-height: 3.6vw;
@@ -896,6 +1002,14 @@ footer {
         font-family: Montserrat, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans';
         font-weight: semi-bold;
         font-size: 4vw;
+    }
+
+    .container-p5 .owl-theme{
+        width: 41vw;
+    }
+    
+    .container-p5 .owl-theme .swiper-slide{
+        width: 95%;
     }
 
     /*--------------------- container-p6 ---------------------*/
@@ -981,18 +1095,12 @@ footer {
  .container-p2 .owl-theme .swiper-slide{
     padding: 15px;
     width: 100%;
-    background-color: #ffffffb2;
     border-radius: 15px;
 }
 
-.container-p2 .owl-theme .swiper-slide h1{
-    margin-bottom: 10px;
-    font-size: 30px;
-}
-
 .container-p2 .owl-theme .swiper-slide p{
-    line-height: 25px;
-    font-size: 17px;
+    line-height: 22px;
+    font-size: 18px;
 }
 
 .container-p2 .owl-theme .container-p-btn-carousel{
@@ -1060,13 +1168,14 @@ footer {
     }
 
     .container-p3 .owl-theme .swiper-slide h1{
-        margin-bottom: 10px;
+        margin-bottom: 30px;
         font-size: 40px;
+        line-height: 40px;
     }
     
     .container-p3 .owl-theme .swiper-slide p{
         line-height: 25px;
-        font-size: 17px;
+        font-size: 20px;
     }
 
     .container-p3 .owl-theme .container-p3-btn-carousel{
@@ -1140,7 +1249,7 @@ footer {
     
     .container-p4 .owl-theme .swiper-slide p{
         line-height: 25px;
-        font-size: 17px;
+        font-size: 20px;
         margin-top: 30px;
     }
 
@@ -1208,13 +1317,14 @@ footer {
     }
 
     .container-p5 .owl-theme .swiper-slide h1{
-        margin-bottom: 10px;
+        margin-bottom: 30px;
         font-size: 40px;
     }
 
     .container-p5 .owl-theme .swiper-slide p{
-        font-size: 17px;
-        line-height: 28px;
+        line-height: 25px;
+        font-size: 20px;
+        margin-top: 30px;
     }
     
     .container-p6 .swiper-slide .author p:first-child {
@@ -1303,14 +1413,10 @@ footer {
         margin-bottom: 5vw;
         line-height: 25px;
     }  
-
-    .container-p2 .owl-theme .swiper-slide h1{
-        font-size: 30px;
-    }
     
     .container-p2 .owl-theme .swiper-slide p{
-        line-height: 20px;
-        font-size: 13px;
+        line-height: 21px;
+        font-size: 17px;
     }
     
     .container-p2 .owl-theme .container-p2-btn-carousel{
@@ -1433,6 +1539,8 @@ footer {
     /*--------------------- Header ---------------------*/
     .logo-navbar{
         width: 40%;
+        margin-left: 10px;
+        margin-top: 2%;
     }
 
     .toggle-button {
@@ -1477,24 +1585,26 @@ footer {
     }
 
     .container-p3 .owl-theme{
-        width: 300px;
+        width: 350px;
     }
     
     .container-p3 .owl-theme .swiper-slide{
         padding: 15px;
-        width: 100%;
+        width: 90%;
         background-color: #ffffffb2;
         border-radius: 15px;
+        height: 20rem;
     }
     
     .container-p3 .owl-theme .swiper-slide h1{
         margin-bottom: 10px;
         font-size: 30px;
+        line-height: 30px;
     }
     
     .container-p3 .owl-theme .swiper-slide p{
         line-height: 25px;
-        font-size: 15px;
+        font-size: 17px;
     }
     
     .container-p3 .owl-theme .container-p3-btn-carousel{
@@ -1552,23 +1662,25 @@ footer {
     }
 
     .container-p5 .owl-theme{
-        width: 300px;
+        width: 350px;
     }
     
     .container-p5 .owl-theme .swiper-slide{
         padding: 15px;
-        width: 100%;
+        width: 90%;
         border-radius: 15px;
+        height: 20rem;
     }
     
     .container-p5 .owl-theme .swiper-slide h1{
         margin-bottom: 10px;
         font-size: 30px;
+        line-height: 30px;
     }
     
     .container-p5 .owl-theme .swiper-slide p{
         line-height: 25px;
-        font-size: 15px;
+        font-size: 17px;
     }
     
     .container-p5 .owl-theme .container-p5-btn-carousel{
