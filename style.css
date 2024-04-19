@@ -298,7 +298,6 @@ main{
     display: flex;
     justify-content: center;
     align-items: end;
-    background-color: green;
 }
 
 
@@ -705,9 +704,11 @@ main{
 .container-p6 article .owl-theme .swiper-slide{
     padding: 2vw;
     width: 95%;
+    min-height: 25rem;
     border: 1px solid #495057;
     border-radius: 1.2vw;
     text-align: start;
+    
 }
 
 .container-p6 article .swiper-slide h1{
@@ -723,7 +724,7 @@ main{
     'Liberation Sans', sans-serif;
     font-size: 1vw;
     margin-bottom: 1.5vw;
-    color: 495057;
+    
 }
 
 .container-p6 article .swiper-slide p span{
@@ -731,8 +732,12 @@ main{
     color: #000000
 }
 
-/*--------------------- container-p7 ---------------------*/
+.container-p6 article .swiper-slide .source{
+    position: absolute;
+    bottom: 1rem;
+}
 
+/*--------------------- container-p7 ---------------------*/
 .container-p7{
     background-image: linear-gradient(90deg, #003780ff 0%, #2ab2e8ff 100%);
     color:#fff;
@@ -779,17 +784,20 @@ main{
     text-align: left;
     padding: 2vw;
     width: 100%;
+    min-height: 22rem;
     background-color: #fff;
     color: #495057;
 }
 
 .container-p7 .swiper-slide .author {
+    position: absolute;
     width: 100%;
-    display: flex;
+    /* display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    align-items: flex-start;
-    
+    align-items: flex-start; */
+    bottom: 1rem;
+    margin-left: 1rem;
 }
 
 .container-p7 .swiper-slide .author p:first-child {
@@ -801,8 +809,6 @@ main{
     font-size: 0.8vw;
     font-weight: 300;
 }
-
-
 
 .container-p7 .owl-theme .swiper-slide h4{
     font-family: Montserrat, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
@@ -816,6 +822,54 @@ main{
     font-family: Montserrat, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
     'Liberation Sans', sans-serif;
     
+}
+
+/*--------------------- container-p8 ---------------------*/
+.container-p8{
+    padding: 50px 0 150px 0;
+}
+
+.container-p8 .content-first h1{
+    font-family: Montserrat, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+    font-size: 2.5vw;
+    line-height: 2.7vw;
+    margin-bottom: 0.5vw;
+    text-align: center;
+    margin-bottom: 50px;
+    color: red;
+}
+
+.container-p8 .content-first .br-container-p8{
+    display: none;
+}
+
+.container-p8 .owl-theme{
+    width: 75vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container-p8 .owl-theme .swiper-slide{
+    padding: 2vw;
+    border-radius: 1.2vw;
+    border:  1px solid #495057;
+    height: 26.5rem;
+}
+
+.container-p8 article .swiper-slide h1{
+    font-family: Montserrat, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+    font-size: 2rem;
+    line-height: 2rem;
+    margin-bottom: 0.6vw;
+    color: 495057;
+}
+
+.container-p8 article .swiper-slide p{
+    font-family: Montserrat, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+    font-size: 1.3rem;
 }
 
 /*--------------------- Fim Main ---------------------*/
@@ -909,6 +963,16 @@ footer {
         font-size: 1.3rem;
         line-height: 1.8rem;
     }
+
+    /*--------------------- container-p5 ---------------------*/
+    .container-p8 article .swiper-slide h1{
+        font-size: 1.5rem;
+        line-height: 1.8rem;
+    }
+    
+    .container-p8 article .swiper-slide p{
+        font-size: 1.1rem;
+    }
 }
 
 @media screen and (max-width: 1450px){
@@ -925,13 +989,23 @@ footer {
 @media screen and (max-width: 1200px){
     .container-p2 .owl-theme .swiper-slide p{
         height: 180px;
-        background-color: red;
     }
 
     .container-p3 .content-first .content button{
         width: 300px;
         height: 50px;
         font-size: 13px;
+    }
+
+    /*--------------------- Container-p8 ---------------------*/
+    .container-p8 .content-first h1{
+        font-size: 2.3rem;
+        line-height: 2.2rem;
+        margin-bottom: 25px;
+    }
+
+    .container-p8 .owl-theme .swiper-slide{
+        height: 30rem;
     }
 }
 
@@ -1040,6 +1114,15 @@ footer {
         font-size: 14px;
         margin-bottom: 15px;
         color: 495057;
+    }
+
+    /*--------------------- container-p8 ---------------------*/
+    .container-p8{
+        padding: 50px 0 15px 0;
+    }
+    
+    .container-p8 .owl-theme .swiper-slide{
+        height: 20rem;
     }
 }
 
@@ -1345,16 +1428,28 @@ footer {
         font-size: 13px;
     }
 
- 
-
-
-
     /*--------------------- Container-p7 ---------------------*/
     .container-p7 .content-first h1{
         font-size: 20px;
         line-height: 2.7vw;
         margin-bottom: 20px;
         margin-top: 20px;
+    }
+
+    /*--------------------- Container-p8 ---------------------*/
+    .container-p8 .content-first h1{
+        font-size: 1.8rem;
+        line-height: 1.8rem;
+    }
+
+    .container-p8 .owl-theme .swiper-slide{
+        padding: 20px;
+        border-radius: 15px;
+        height: 100%;
+    }
+
+    .container-p8 article .swiper-slide h1{
+        font-size: 1.5rem;
     }
 }
 
@@ -1466,6 +1561,7 @@ footer {
 .container-p7 .owl-theme .swiper-slide h4{
     margin-bottom: 10px;
     font-size: 22px;
+    min-height: 25rem;
 }
 
 .container-p7 .owl-theme .swiper-slide .author p{
@@ -1531,6 +1627,16 @@ footer {
     .container-p6 article .owl-theme{
         margin-top: 35px;
         margin-bottom: 35px;
+    }
+
+    
+    /*--------------------- Container-p8 ---------------------*/
+    .container-p8 .content-first h1 {
+        margin-bottom: 14px;
+    }
+    
+    .container-p8 .content-first .br-container-p8{
+        display: block;
     }
    
 }
@@ -1696,8 +1802,28 @@ footer {
         font-size: 25px;
         margin-bottom: 3px;
     }
-    
 
+    /*--------------------- Container-p8 ---------------------*/
+    .container-p8 .content-first h1{
+        font-size: 1.8rem;
+        line-height: 1.8rem;
+    }
+    
+    .container-p8 .owl-theme{
+        width: 85%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .container-p8 .owl-theme .swiper-slide{
+        padding: 20px;
+        border-radius: 15px;
+        height: 100%;
+    }
+
+    .container-p8 article .swiper-slide h1{
+        font-size: 1.5rem;
+    }
 
     /*--------------------- Footer ---------------------*/
     .footer-grid{
@@ -1778,3 +1904,5 @@ footer {
         font-size: 18px;
     }
 }
+
+
