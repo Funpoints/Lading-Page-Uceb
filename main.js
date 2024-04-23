@@ -196,11 +196,15 @@ $('#carousel-9').owlCarousel({
   }
 })
 
-
-
 const toggleButton = document.getElementsByClassName('toggle-button')[0]
 const navbarLinks = document.getElementsByClassName('navbar-links')[0]
 
 toggleButton.addEventListener('click', () => {
   navbarLinks.classList.toggle('active')
 })
+
+var carousel_1 = document.querySelector(".logos-slide-1").cloneNode(true);
+document.querySelector(".carousel-logos-news-1").appendChild(carousel_1);
+
+var carousel_2 = document.querySelector(".logos-slide-2").cloneNode(true);
+document.querySelector(".carousel-logos-news-2").appendChild(carousel_2);
