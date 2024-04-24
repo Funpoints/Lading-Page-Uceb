@@ -290,6 +290,14 @@ main{
 .container-p1{
     display: flex;
     padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 150px;
+}
+
+.container-p1 img{
+    width: 900px;
 }
 
 .container-p1 .content-first{
@@ -297,6 +305,7 @@ main{
     flex-direction: column;
     justify-content: center;
     padding: 2vw;
+    width: 65%;
 }
 
 .container-p1 .content-first h1{
@@ -311,6 +320,8 @@ main{
     line-height: 160%;
     font-family: Montserrat, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans';
     font-weight: regular;
+    font-size: 1vw;
+    font-weight: normal;
 }
 
 /*--------------------- container-p2 ---------------------*/
@@ -1025,6 +1036,16 @@ footer {
         width: 60%;
         height: 150px;
     }
+
+    /*--------------------- container-p1 ---------------------*/
+    .container-p1 img{
+        width: 700px;
+    }
+
+    .container-p1 .content-first h3{
+        line-height: 160%;
+        font-size: 1.1rem;
+    }
 }
 
 @media screen and (max-width: 1680px){
@@ -1097,6 +1118,17 @@ footer {
         width: 70%;
     }
 
+    /*--------------------- container-p1 ---------------------*/
+    .container-p1 img{
+        width: 600px;
+    }
+
+    .container-p1 .content-first h3{
+        line-height: 160%;
+        font-size: 1rem;
+    }
+
+    /*--------------------- container-p2 ---------------------*/
     .container-p2 .owl-theme .swiper-slide h1{
         font-size: 1.7rem;
         line-height: 25px;
@@ -1109,6 +1141,12 @@ footer {
         height: 130px;
     }
 
+    /*--------------------- container-p1 ---------------------*/
+    .container-p1 img{
+        width: 500px;
+    }
+
+    /*--------------------- container-p2 ---------------------*/
     .container-p2 .owl-theme .swiper-slide{
         height: 22rem;
     }
@@ -1167,6 +1205,11 @@ footer {
     /*--------------------- container-p1 ---------------------*/
     .container-p1{
         flex-direction: column;
+        margin-bottom: 60px;
+    }
+
+    .container-p1 .content-first{
+        width: 100%;
     }
 
     .container-p1 .content-first h1{
@@ -1175,6 +1218,12 @@ footer {
 
     .container-p1 .content-first h3{
         line-height: 160%;
+        font-size: 1rem;
+        text-align: center;
+    }
+
+    .container-p1 img{
+        width: 80%;
     }
 
     /*--------------------- container-p2 ---------------------*/
@@ -1797,9 +1846,9 @@ footer {
     }
 
     /*--------------------- Container-p1 ---------------------*/
-    /*.container-p1 img{
-        display: none;
-    }*/
+    .container-p1 img{
+        width: 100%;
+    }
 
     /*--------------------- Container-p2 ---------------------*/
     .container-p2 .owl-theme {
@@ -1877,9 +1926,13 @@ footer {
     }
     
     /*--------------------- container-p1 ---------------------*/
-    /*.container-p1 img{
-        display: none;
-    }*/
+    .container-p1{
+        margin-bottom: 35px;
+    }
+
+    .container-p1 img{
+        width: 350px;
+    }
 
     /*--------------------- container-p2 ---------------------*/
     .container-p2 .owl-theme {
