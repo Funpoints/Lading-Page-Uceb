@@ -1,8 +1,5 @@
-@import url('https://fonts.googleapis.com/css?family=Raleway');
-
 * {
     box-sizing: border-box;
-    font-family: Raleway;
     margin: 0;
     padding: 0;
 }
@@ -865,9 +862,13 @@ main{
 .container-p7 .content-first h1{
     font-family: Montserrat, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
     'Liberation Sans', sans-serif;
-    font-size: 2.5vw;
+    font-size: 2.3vw;
     line-height: 2.7vw;
     margin-bottom: 0.5vw;
+}
+
+.container-p7 .br-container-p7{
+    display: none;
 }
 
 .container-p7 .content-first h6{
@@ -885,53 +886,54 @@ main{
 }
 
 .container-p7 .owl-theme .swiper-slide{
-    border-radius: 10px;
+    border-radius: 15px;
     box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.1);
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 1.5vw;
+    gap: 20px;
     text-align: left;
-    padding: 2vw;
+    padding: 15px;
     width: 100%;
     min-height: 22rem;
-    background-color: #fff;
+    background-color: #ffffffb2;
     color: #495057;
 }
 
 .container-p7 .swiper-slide .author {
-    position: absolute;
+    display: flex;
     width: 100%;
-    /* display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-start; */
-    bottom: 1rem;
-    margin-left: 1rem;
+    padding: 1rem;
+    align-items: center;   
+}
+
+.container-p7 .swiper-slide .names-author{
+    margin-left: 30px;
+}
+
+.container-p7 .swiper-slide .author img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
 }
 
 .container-p7 .swiper-slide .author p:first-child {
-    font-size: 1.3vw;
-    font-weight: 500;
+    font-size: 23px;
+    font-weight: 600;
 }
 
 .container-p7 .swiper-slide .author p:nth-child(2) {
-    font-size: 0.8vw;
-    font-weight: 300;
+    font-size: 22px;
 }
 
 .container-p7 .owl-theme .swiper-slide h4{
     font-family: Montserrat, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
     'Liberation Sans', sans-serif;
-    font-size: 1.2vw;
+    font-size: 22px;
     font-style: italic;
     font-weight: 500;
-}
-
-.container-p7 .owl-theme .swiper-slide p{
-    font-family: Montserrat, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
-    'Liberation Sans', sans-serif;
-    
+    min-height: 15rem;
+    width: 95%;
 }
 
 /*--------------------- container-p8 ---------------------*/
@@ -1046,6 +1048,16 @@ footer {
         line-height: 160%;
         font-size: 1.1rem;
     }
+
+    /*--------------------- container-p7 ---------------------*/
+    .container-p7 .owl-theme .swiper-slide{
+        gap: 10px;
+    }
+
+    .container-p7 .owl-theme .swiper-slide h4{
+        font-size: 20px;
+        min-height: 16rem;
+    }
 }
 
 @media screen and (max-width: 1680px){
@@ -1133,6 +1145,11 @@ footer {
         font-size: 1.7rem;
         line-height: 25px;
     }
+
+    /*--------------------- container-p7 ---------------------*/
+    .container-p7 .owl-theme .swiper-slide h4{
+        min-height: 18rem;
+    }
 }
 
 @media screen and (max-width: 1200px){
@@ -1171,6 +1188,14 @@ footer {
         font-size: 13px;
     }
 
+    /*--------------------- container-p7 ---------------------*/
+    .container-p7 .owl-theme .swiper-slide h4{
+        min-height: 12rem;
+    }
+
+    .container-p7 .owl-theme .swiper-slide h4{
+        font-size: 18px;
+    }
 
     /*--------------------- Container-p8 ---------------------*/
     .container-p8 .content-first h1{
@@ -1334,6 +1359,18 @@ footer {
     .container-p6 .carousel-logos-news-2:after {
         right: 0;
         background: none;
+    }
+
+     /*--------------------- container-p7 ---------------------*/
+    .container-p7 .content-first h1{
+        font-size: 30px;
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+
+     .container-p7 .owl-theme .swiper-slide h4{
+        font-size: 22px;
+        min-height: 15rem;
     }
 
     /*--------------------- container-p8 ---------------------*/
@@ -1656,7 +1693,7 @@ footer {
 
     /*--------------------- Container-p7 ---------------------*/
     .container-p7 .content-first h1{
-        font-size: 20px;
+        font-size: 25px;
         line-height: 2.7vw;
         margin-bottom: 20px;
         margin-top: 20px;
@@ -1780,35 +1817,6 @@ footer {
     font-size: 13px;
 }
 
-/*--------------------- Container-p7 ---------------------*/
-.container-p7 .owl-theme .swiper-slide{
-    padding: 15px;
-    width: 100%;
-    background-color: #ffffffb2;
-    border-radius: 15px;
-}
-
-.container-p7 .owl-theme .swiper-slide h4{
-    margin-bottom: 10px;
-    font-size: 22px;
-    min-height: 25rem;
-}
-
-.container-p7 .owl-theme .swiper-slide .author p{
-    line-height: 25px;
-    font-size: 22px;
-}
-
-.container-p7 .owl-theme .container-p-btn-carousel{
-    padding: 10px;
-    margin-top: 22px;
-    width: 300px;
-    height: 40px;
-    font-size: 13px;
-}
-
-  
-
 @media screen and (max-width: 600px) {
     /*--------------------- Header ---------------------*/
     .toggle-button {
@@ -1880,6 +1888,29 @@ footer {
         margin: 0 15px;
     }
 
+    /*--------------------- Container-p7 ---------------------*/
+    .container-p7 .content-first h1{
+        font-size: 22px;
+    }
+
+    .container-p7 .owl-theme .swiper-slide h4{
+        font-size: 20px;
+        min-height: 16rem;
+    }
+
+    .container-p7 .swiper-slide .names-author{
+        margin-left: 15px;
+    }
+
+    .container-p7 .swiper-slide .author p:first-child {
+        font-size: 19px;
+        font-weight: 600;
+    }
+    
+    .container-p7 .swiper-slide .author p:nth-child(2) {
+        font-size: 19px;
+        font-weight: 100;
+    }
     
     /*--------------------- Container-p8 ---------------------*/
     .container-p8 .content-first h1 {
@@ -2076,6 +2107,12 @@ footer {
         margin-bottom: 3px;
     }
 
+    /*--------------------- Container-p7 ---------------------*/
+    .container-p7 .swiper-slide .author img{
+        width: 80px;
+        height: 80px;
+    }
+
     /*--------------------- Container-p8 ---------------------*/
     .container-p8 .content-first h1{
         font-size: 1.8rem;
@@ -2109,6 +2146,15 @@ footer {
 @media screen and (max-width: 450px) {
     .header-banner-1{
         height: 105vw;
+    }
+
+    .container-p7 .br-container-p7{
+        display: block;
+    }
+
+    .container-p7 .content-first h1{
+        font-size: 28px;
+        line-height: 28px;
     }
 }
 
@@ -2183,10 +2229,16 @@ footer {
         height: 50px;
     }
 
-      /*--------------------- Container-p7 ---------------------*/
-      .container-p7 .content-first h1{
-        font-size: 18px;
+    /*--------------------- Container-p7 ---------------------*/
+    .container-p7 .content-first h1{
+        font-size: 25px;
     }
+
+    .container-p7 .owl-theme .swiper-slide h4{
+        font-size: 19px;
+        min-height: 17rem;
+    }
+    
 }
 
 

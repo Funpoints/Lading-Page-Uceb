@@ -171,6 +171,9 @@ $('#carousel-8').owlCarousel({
           items:1
       },
       1000:{
+        items:2
+      },
+      1200:{
           items:3
       }
   }
